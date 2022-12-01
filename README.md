@@ -17,7 +17,7 @@ Details of the original data are [here](https://archive.ics.uci.edu/ml/datasets/
 
 - [R workfile](https://github.com/Wenying-Wu/Credit-Card-Default-Model/blob/main/workfile_credit_card_default_model.R)
 
-- [Presentation Slides]()
+- [Presentation Slides](https://github.com/Wenying-Wu/Credit-Card-Default-Model/blob/main/presentation_credit_card_default_model.pdf)
 
 ### Result: 
 - Various machine learning algorithms have been applied to predict credit card default as part of a Kaggle competition. The performance metric used in the competition was the area under the receiver operator curve (AUC) where an **XGBoost model** scored the highest AUC of **0.795** outperforming a random forest model, generalized linear model, and a linear logistic model. Furthermore, due to the implications of classifying non-defaulters as defaulters (false positives) in a banking scenario, we have decided that recall is the most appropriate metric and would recommend a XGBoost model. 
